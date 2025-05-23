@@ -1,3 +1,9 @@
+# Copyright (c) 2025 David Boetius
+# Licensed under the MIT license
+"""Statistical functions, mostly probability distributions, in PyTorch."""
+
+__version__ = "0.1.0"
+
 from .input_space import InputSpace, TensorInputSpace, TabularInputSpace, CombinedInputSpace
 from .probability_distribution import ProbabilityDistribution
 from .as_integer import AsInteger

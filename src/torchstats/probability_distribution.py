@@ -7,11 +7,11 @@ from typing import Protocol, runtime_checkable
 import numpy as np
 import scipy.optimize
 import torch
+from .utils import TENSOR_LIKE, to_tensor
 
 
 __all__ = ["ProbabilityDistribution", "UnivariateDistribution", "DiscreteDistribution"]
 
-from probspecs.utils.tensor_utils import TENSOR_LIKE, to_tensor
 
 
 @runtime_checkable
